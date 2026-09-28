@@ -1,0 +1,40 @@
+import { InterviewerPersona } from '../types';
+
+export const INTERVIEWERS: InterviewerPersona[] = [
+  {
+    id: 'maya',
+    name: 'Dr. Maya Patel',
+    title: 'Staff Architect & Candidate Advocate',
+    companyBackground: 'Ex-Google & Fintech Principal',
+    image: '/src/assets/images/interviewer_maya_1790583854713.jpg',
+    personality: 'Warm, patient, and methodical. Believes introverted thinkers craft the cleanest code.',
+    empathyStyle: 'Acknowledges nervousness with gentle nods, allows natural silence, and praises structured thought.',
+    voicePitch: 1.05,
+    voiceRate: 0.95,
+    preferredTone: 'Calm and encouraging',
+  },
+  {
+    id: 'marcus',
+    name: 'Marcus Vance',
+    title: 'Senior Systems Engineer & Tech Mentor',
+    companyBackground: 'Distributed Systems & Open Source Contributor',
+    image: '/src/assets/images/interviewer_marcus_1790583868747.jpg',
+    personality: 'Friendly, down-to-earth, and conversational. Treats interviews like a peer collaboration.',
+    empathyStyle: 'Breaks complex questions into comforting bite-sized milestones so candidates never feel overwhelmed.',
+    voicePitch: 0.95,
+    voiceRate: 0.95,
+    preferredTone: 'Friendly peer conversation',
+  },
+  {
+    id: 'elena',
+    name: 'Elena Rossi',
+    title: 'VP of Engineering & Interview Coach',
+    companyBackground: 'Hypergrowth Scaleup Executive & Career Mentor',
+    image: '/src/assets/images/interviewer_elena_1790583880145.jpg',
+    personality: 'Compassionate, insightful, and empowering. Passionate about helping anxious candidates shine.',
+    empathyStyle: 'Specializes in stage-fright grounding, body posture awareness, and authentic behavioral storytelling.',
+    voicePitch: 1.1,
+    voiceRate: 0.92,
+    preferredTone: 'Supportive executive mentor',
+  },
+];

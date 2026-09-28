@@ -1,0 +1,7 @@
+{
+  "name": "ZenInterview - Multilingual AI Interview Coach for Introverts",
+  "description": "Overcome stage fear and ace tech interviews with comforting human-form AI interviewers, multilingual practice, streaks, countdowns, and gamified treasures across Python, JS, Java, C++, SQL, and System Design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

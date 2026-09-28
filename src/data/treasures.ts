@@ -1,0 +1,91 @@
+import { TreasureChest, BadgeItem } from '../types';
+
+export const TREASURE_CHESTS: TreasureChest[] = [
+  {
+    id: 'bronze-chest',
+    name: 'Bronze Apprentice Vault',
+    tier: 'bronze',
+    costPoints: 120,
+    iconName: 'Shield',
+    description: 'An introductory treasure chest crafted for aspiring candidates starting their interview journey.',
+    rewardTitle: 'Streak Shield & Python Syntax Charm',
+    rewardType: 'streak_shield',
+    rewardDetail: 'Grants +1 Streak Freeze Protection and the "Clear Thought" confidence badge.',
+    unlocked: false,
+  },
+  {
+    id: 'silver-vault',
+    name: 'Silver Architect Relic',
+    tier: 'silver',
+    costPoints: 300,
+    iconName: 'Sparkles',
+    description: 'A polished obsidian and silver vault forged to reward consistency and deep technical exploration.',
+    rewardTitle: 'Stage-Fright Neutralizer & System Blueprint',
+    rewardType: 'cheatsheet',
+    rewardDetail: 'Unlocks the 5-Minute Introvert Pre-Interview Protocol and System Design Cheatsheet.',
+    unlocked: false,
+  },
+  {
+    id: 'gold-trove',
+    name: 'Golden Diamond Trove',
+    tier: 'gold',
+    costPoints: 600,
+    iconName: 'Gem',
+    description: 'A radiant golden chest shimmering with celestial confidence and advanced problem-solving mastery.',
+    rewardTitle: 'Imposter Syndrome Shield & Master STAR Template',
+    rewardType: 'charm',
+    rewardDetail: 'Grants +200 bonus XP, Golden Interviewer Aura, and the "Unshakable Mind" title.',
+    unlocked: false,
+  },
+  {
+    id: 'master-zen-vault',
+    name: 'Celestial Zen Sanctuary',
+    tier: 'master',
+    costPoints: 1000,
+    iconName: 'Crown',
+    description: 'The supreme interview artifact awarded to introverts who have turned quiet reflection into their ultimate superpower.',
+    rewardTitle: 'Legendary Interview Day Victory Charm',
+    rewardType: 'badge',
+    rewardDetail: 'Permanent Stage-Presence Boost, VIP Interviewer Elena Personalized Feedback, and Crown of Serenity.',
+    unlocked: false,
+  },
+];
+
+export const ALL_BADGES: BadgeItem[] = [
+  {
+    id: 'first-step',
+    title: 'First Step to Victory',
+    description: 'Completed your very first interview practice question.',
+    icon: 'Flame',
+  },
+  {
+    id: 'stage-fear-slayer',
+    title: 'Stage Fear Conqueror',
+    description: 'Finished 3 Zen breathing and calming drills before a mock session.',
+    icon: 'HeartHandshake',
+  },
+  {
+    id: 'consistency-hero',
+    title: 'Consistency Titan',
+    description: 'Maintained a 5-day continuous interview practice streak.',
+    icon: 'Zap',
+  },
+  {
+    id: 'hard-mode-ace',
+    title: 'Hard Mode Master',
+    description: 'Successfully answered a Hard difficulty question in any domain.',
+    icon: 'Trophy',
+  },
+  {
+    id: 'polyglot-coder',
+    title: 'Multilingual Polyglot',
+    description: 'Practiced interview questions across 3 different languages or domains.',
+    icon: 'Globe',
+  },
+  {
+    id: 'target-day-ready',
+    title: 'Target Day Ready',
+    description: 'Reached 80%+ readiness score for your upcoming interview date.',
+    icon: 'Target',
+  },
+];
